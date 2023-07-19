@@ -1,9 +1,9 @@
 microservices:
   microservice:
-    id: payment-service
+    order-service:
+      name: save-order
+      uri: http://order-service/order/save
+      
+    payment-service:
       name: save-payment
       uri: http://payment-service/payment/save
-    
-    id: order-service
-      name: save-payment
-      uri: http://order-service/order/save
