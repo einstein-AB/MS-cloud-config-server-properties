@@ -7,3 +7,13 @@ microservices:
     payment-service:
       name: save-payment
       uri: http://payment-service/payment/save
+
+#------------------------------------------------------------------#
+    
+    restaurant-service:
+      name: restaurant-save-order
+      uri: http://RESTAURANT-SERVICE/restaurantOrder/save
+
+    food-payment-service:
+      name: food-save-payment
+      uri: http://FOOD-PAYMENT-SERVICE/payment/save
